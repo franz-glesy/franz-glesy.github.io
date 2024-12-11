@@ -532,7 +532,7 @@
     }
 
     $(window).on("resize", function() {
-        toggleClassForSmallNav();
+        // toggleClassForSmallNav();
 
         clearTimeout($.data(this, 'resizeTimer'));
         $.data(this, 'resizeTimer', setTimeout(function() {
